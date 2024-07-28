@@ -1,0 +1,212 @@
+.artifacts-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .home1 {
+    position: relative;
+    line-height: 135%;
+    font-weight: 500;
+  }
+  .keyboard-arrow-down-icon1 {
+    width: 12px;
+    position: relative;
+    height: 7.4px;
+  }
+  .keyboard-arrow-down1 {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) var(--padding-7xs);
+    box-sizing: border-box;
+  }
+  .projects-group {
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .frame-parent5,
+  .frame-parent6,
+  .projects-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .frame-parent6 {
+    justify-content: flex-start;
+    padding: var(--padding-2xs) 0;
+    gap: var(--gap-61xl);
+    font-size: var(--font-size-5xl);
+  }
+  .frame-parent5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--grays-black);
+    width: 1728px;
+    justify-content: space-between;
+    padding: var(--padding-base) var(--padding-21xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-21xl);
+    color: var(--backgrounds-primary);
+  }
+  .thanks-for-visit1 {
+    position: absolute;
+    top: 1104px;
+    left: calc(50% - 109px);
+    font-size: var(--font-size-5xl);
+    line-height: 150%;
+    font-weight: 500;
+    color: var(--grays-gray);
+  }
+  .santosh-2-new-child {
+    position: absolute;
+    top: 1087.5px;
+    left: calc(50% - 616.5px);
+    border-top: 1px solid var(--grays-black);
+    box-sizing: border-box;
+    width: 1232px;
+    height: 1px;
+  }
+  .santosh-2-new-item {
+    position: absolute;
+    top: 86px;
+    left: 0;
+    background-color: #eaeaea;
+    width: 248px;
+    height: 1088px;
+  }
+  .santosh-2-new-inner {
+    position: absolute;
+    top: 119px;
+    left: 40px;
+    width: 92px;
+    height: 38px;
+  }
+  .abc,
+  .scenario {
+    position: relative;
+    line-height: 135%;
+  }
+  .abc {
+    align-self: stretch;
+  }
+  .scenario {
+    font-weight: 600;
+  }
+  .keyboard-arrow-down-icon2 {
+    width: 24px;
+    position: relative;
+    height: 24px;
+  }
+  .scenario-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .scenario-1 {
+    position: relative;
+    line-height: 135%;
+  }
+  .scenario-1-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent8 {
+    align-self: stretch;
+    gap: 2px;
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray);
+  }
+  .abc-parent,
+  .frame-parent7,
+  .frame-parent8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent7 {
+    align-self: stretch;
+    gap: 4px;
+    font-size: 20px;
+    color: #434343;
+  }
+  .abc-parent {
+    position: absolute;
+    top: 126px;
+    left: 40px;
+    width: 110px;
+    gap: 21px;
+  }
+  .lorem-ipsum-dolor5 {
+    width: 1127px;
+    position: relative;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .lorem-ipsum-dolor-sit-amet-con-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-base);
+    color: var(--grays-gray);
+  }
+  .heading-1-parent {
+    position: absolute;
+    top: 126px;
+    left: 345px;
+    width: 1127px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .heading-11 {
+    position: relative;
+    font-size: var(--font-size-9xl);
+    line-height: 135%;
+  }
+  .heading-1-group,
+  .scenario-1-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .scenario-1-parent {
+    align-self: stretch;
+    gap: var(--gap-base);
+  }
+  .heading-1-group {
+    position: absolute;
+    top: 444px;
+    left: 345px;
+    width: 1127px;
+    gap: var(--gap-5xl);
+    font-size: var(--font-size-3xl);
+  }
+  .santosh-2-new {
+    width: 100%;
+    position: relative;
+    background-color: var(--backgrounds-primary);
+    height: 1174px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-9xl);
+    color: var(--grays-black);
+    font-family: var(--font-inter);
+  }
