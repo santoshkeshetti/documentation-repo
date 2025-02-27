@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Artifacts Section */
+.header-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Project Overview Section */
+.overview-section {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.overview-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Main Content */
+.main-content {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #ececec;
+  min-height: 500px;
+}
+
+.main-content h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Project Cards Section */
+.project-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual Card Styling */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Footer */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
