@@ -1,250 +1,89 @@
-.artifacts {
-    position: relative;
-    line-height: 135%;
-    font-weight: 600;
-  }
-  .artifacts-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  .home {
-    position: relative;
-    line-height: 135%;
-    font-weight: 500;
-  }
-  .keyboard-arrow-down-icon {
-    width: 12px;
-    position: relative;
-    height: 7.4px;
-  }
-  .keyboard-arrow-down {
-    width: 24px;
-    height: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-5xs) var(--padding-7xs);
-    box-sizing: border-box;
-  }
-  .projects-parent {
-    justify-content: flex-start;
-    gap: var(--gap-5xs);
-  }
-  .frame-group,
-  .frame-parent,
-  .projects-parent {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .frame-group {
-    justify-content: flex-start;
-    padding: var(--padding-2xs) 0;
-    gap: var(--gap-61xl);
-    font-size: var(--font-size-5xl);
-  }
-  .frame-parent {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--grays-black);
-    width: 1728px;
-    justify-content: space-between;
-    padding: var(--padding-base) var(--padding-21xl);
-    box-sizing: border-box;
-    font-size: var(--font-size-21xl);
-  }
-  .project-overview {
-    position: relative;
-    line-height: 135%;
-  }
-  .lorem-ipsum-dolor {
-    width: 774px;
-    position: relative;
-    line-height: 150%;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    flex-shrink: 0;
-  }
-  .frame-div,
-  .lorem-ipsum-dolor-sit-amet-con-wrapper {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .lorem-ipsum-dolor-sit-amet-con-wrapper {
-    align-self: stretch;
-    flex-direction: row;
-    font-size: var(--font-size-5xl);
-    color: #f3f3f3;
-  }
-  .frame-div {
-    width: 774px;
-    flex-direction: column;
-    gap: 40px;
-  }
-  .undraw-project-team-lc5a-1-icon {
-    width: 447px;
-    position: relative;
-    height: 244px;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .undraw-project-team-lc5a-1-wrapper {
-    width: 447px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .frame-container {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0 149px 0 0;
-    gap: 198px;
-  }
-  .santosh-1-new-inner {
-    position: absolute;
-    top: 86px;
-    left: calc(50% - 864px);
-    background-color: var(--grays-black);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 120px 80px;
-    font-size: 56px;
-  }
-  .thanks-for-visit {
-    position: absolute;
-    top: 1104px;
-    left: calc(50% - 109px);
-    line-height: 150%;
-    font-weight: 500;
-    color: var(--grays-gray);
-  }
-  .group-child {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--grays-black);
-    width: 280px;
-    height: 150px;
-  }
-  .cards-icon,
-  .group-item {
-    position: absolute;
-    top: 39px;
-    left: 104px;
-    width: 72px;
-    height: 72px;
-  }
-  .group-item {
-    top: 0;
-    left: 0;
-    background-color: var(--backgrounds-primary);
-    border: 1px solid var(--miscellaneous-bar-border);
-    box-sizing: border-box;
-    width: 280px;
-    height: 192px;
-  }
-  .project-1-overview {
-    flex: 1;
-    position: relative;
-    line-height: 135%;
-  }
-  .project-1-overview-wrapper {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  .lorem-ipsum-dolor1 {
-    align-self: stretch;
-    position: relative;
-    font-size: var(--font-size-base);
-    line-height: 150%;
-    color: var(--grays-gray);
-  }
-  .frame-parent1 {
-    position: absolute;
-    top: 24px;
-    left: 24px;
-    width: 232px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: var(--gap-base);
-  }
-  .rectangle-group {
-    position: absolute;
-    top: 150px;
-    left: 0;
-    width: 280px;
-    height: 192px;
-  }
-  .rectangle-container,
-  .rectangle-parent,
-  .rectangle-parent1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 280px;
-    height: 342px;
-  }
-  .rectangle-container,
-  .rectangle-parent1 {
-    left: 317px;
-  }
-  .rectangle-parent1 {
-    left: 634px;
-  }
-  .group-parent,
-  .rectangle-parent3,
-  .santosh-1-new-child {
-    position: absolute;
-    top: 0;
-    left: 951px;
-    width: 280px;
-    height: 342px;
-  }
-  .group-parent,
-  .santosh-1-new-child {
-    left: 0;
-    width: 1231px;
-  }
-  .santosh-1-new-child {
-    top: 666px;
-    left: 248px;
-    text-align: center;
-    color: var(--grays-black);
-  }
-  .santosh-1-new-item {
-    position: absolute;
-    top: 1087.5px;
-    left: calc(50% - 616.5px);
-    border-top: 1px solid var(--grays-black);
-    box-sizing: border-box;
-    width: 1232px;
-    height: 1px;
-  }
-  .santosh-1-new {
-    width: 100%;
-    position: relative;
-    background-color: var(--backgrounds-primary);
-    height: 1174px;
-    overflow: hidden;
-    text-align: left;
-    font-size: var(--font-size-5xl);
-    color: var(--backgrounds-primary);
-    font-family: var(--font-inter);
-  }
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Artifacts Section */
+.header-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Project Overview Section */
+.overview-section {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.overview-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Main Content */
+.main-content {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #ececec;
+  min-height: 500px;
+}
+
+.main-content h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Project Cards Section */
+.project-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual Card Styling */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Footer */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
